@@ -30,8 +30,8 @@ int main()
 
     printf("Enter A B C\n");
     scanf("%d %d %d", &a, &b, &c);
-    sum1 =(double)((-b) + sqrt((b * b) - (4 * a * c))) / (4 * a * c);
-    sum2 = (double)((-b) - sqrt((b * b) - (4 * a * c))) / (4 * a * c);
+    sum1 =(double)((-b) + sqrt((b * b) - (4 * a * c))) / (2 * a);
+    sum2 = (double)((-b) - sqrt((b * b) - (4 * a * c))) / (2 * a);
     if (sum1 == sum2 && sum1 > 0)
     {
         printf("Roots are real and same %0.2f\n", sum1);
